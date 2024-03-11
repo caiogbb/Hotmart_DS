@@ -1,8 +1,17 @@
-# Hotmart_DS
-Teste técnico para Cientista de Dados Sênior Hotmart
+# Fluxograma das atividades desevolvidas neste Case Técnico
 
 
-# Informações dos códigos utilizados neste teste:
+<div align="right">
+  <img src="/fluxograma.jpg" alt="Your Logo" width="200">
+</div>
+
+## O problema a ser resolvido:
+
+Espera-se que o candidato consiga extrair uma amostra de tamanho 3-5 minutos de um vídeo de curso da Hotmart para extrair a descrição em português traduzi-lá para inglês e gerar uma voz sintética falando em inglês do mesmo vídeo. E ao fim, apresente um vídeo com o áudio gerado pela IA (Inteligência artificial)
+
+# Descrição de cada etapa do fluxograma:
+
+## Video case:
 
 # Overview
 
