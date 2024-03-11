@@ -45,9 +45,8 @@ Foi proposto uma metolologia e modelos bem utilizados no mercado no que se refer
 
 # Instrução para uso do protótipo
 
-If you are a new developer contributing to this project, follow these steps to set up your development environment:
 
-## Prerequisites
+## Pré-Requisitos
 
 - Python instalado na versão 3.8.10 em ubuntu pode-se utilizar o seguinte comando:
 
@@ -81,3 +80,12 @@ Ao rodar este comando acima todos a pipeline de geração das partes e arquivos 
 
 O teste proposto teve bastante desafios e oportunidades de inclusão desta pipeline para tradução de vídeos dentro da plataforma da Hotmart! Será proveitoso a aplicação dessa pipeline e sua melhoria! Aproveitem o protótipo.
 
+
+
+## Próximos passos do protótipo
+
+- [x] Criação de um docker para colocar em teste toda pipeline.
+- [x] Estudar outras estruturas de modelos que podem ser utilizados e comparar as performances.
+- [x] Considerar os códigos para geração de clonagem de voz (Segue um documento `next_steps.txt` com um possível códigos em python para solucionar a clonagem de voz usaando a `API` do `TTS` modelo do `HuggingFace`).
+- [x] Estudar a possibilidade de incluir versões testes na plataforma para obtenção de feedbeck dos usuários.
+- [x] Extensões para outras linguagem além do inglês: Espanhol, Mandarim, Italiano, dentre outras. 
