@@ -11,11 +11,17 @@ Espera-se que o candidato consiga extrair uma amostra de tamanho 3-5 minutos de 
 
 # Descrição de cada etapa do fluxograma:
 
-### Video case: Nesta etapa foi carregado o vídeo contendo aproximadamente 35 min de um curso da Hotmart e preparado para ser pre-processado pelo algoritmo em python.
+### Video case: 
+Nesta etapa foi carregado o vídeo contendo aproximadamente 35 min de um curso da Hotmart e preparado para ser pre-processado pelo algoritmo em python.
 
-### Pré-processamento: Nesta etapa houve um grande desafio, isto é, pode-se extrair uma amostra de vídeo de tamanho 3-5 minutos de maneira simples no python, no entanto, para os próximos passos seria inviável, pos os modelos de transcrição e tradução só permitiam uma quantidade de tempo de 1 minuto e aproxidamente 700 palavras. Neste sentido, optou-se por fragmentar uma amostra de tamanho 3 minutos em 12 partes, desta forma foi possível realizar as próximas etapas.
+### Pré-processamento: 
+Nesta etapa houve um grande desafio, isto é, pode-se extrair uma amostra de vídeo de tamanho 3-5 minutos de maneira simples no python, no entanto, para os próximos passos seria inviável, pos os modelos de transcrição e tradução só permitiam uma quantidade de tempo de 1 minuto e aproxidamente 700 palavras. Neste sentido, optou-se por fragmentar uma amostra de tamanho 3 minutos em 12 partes, desta forma foi possível realizar as próximas etapas.
 
-### Geração da Transcrição: Para esta etapa, foi extraido das 12 partes dos vídeos da etapa anterior os áudios dos vídeos e salvos em mp3, para as próximas etapas decidiu-se converter esses audios para arquivos .wav. Para a parte de extração da transcrição foi extraido as 12 partes de transcrição dos audios utilizando uma API da biblioteca do SpeechRecognition e salvas e ao fim do processo foram combinadados para geração de um único arquivo denominado 'text_pt.txt'
+### Geração da Transcrição: 
+Para esta etapa, foi extraido das 12 partes dos vídeos da etapa anterior os áudios dos vídeos e salvos em mp3, para as próximas etapas decidiu-se converter esses audios para arquivos .wav. Para a parte de extração da transcrição foi extraido as 12 partes de transcrição dos áudios utilizando uma `API`da biblioteca do `SpeechRecognition` em `python` e salvas e ao fim do processo foram combinadados para geração de um único arquivo denominado `text_pt.txt`.
+
+### Geração da tradução:
+A tradução dos textos quebrados 
 
 # Overview
 
