@@ -36,21 +36,16 @@ Foi proposto uma metolologia e modelos bem utilizados no mercado no que se refer
 
 **
 
-## Business and Technical requirements (Main task)
+## O que foi entregue neste protótipo
 
-- [x] Presented an application capable of searching for species by their vernacular name and scientific name.
-- [x] Presented the count of species that were observed
-- [x] Included a visualization of a timeline when selected species were observed
-- [x] Implemented the App using shinyModules
-- [x] Unit tests have been added for the most important functions and cover edge cases
-- [x] Deploy the BioApp to shinyapps.io (see, https://gx1jfd-caio-balieiro.shinyapps.io/BioApp/)
-      
-## Extra - Beautiful UI and Infrastructure skill skill
-
-- [x] Beautiful UI Skill was made available using the help of the `fresh` library, available on `CRAN`
+- [x] Códigos executáveis em python para criação da metodologia de Voice-over.
+- [x] Arquivo com a transcrição em português do que foi falado na amostra.
+- [x] Arquivo com a tradução em inglês do que foi falado na amostra.
+- [x] Video com aproximadamente 3 minutos e 16 segundos (contando o não sincronismo com o vídeo original).
+- [x] Um README.md contanto sobre a metodologia e como utilizar este códigos em python
       
 
-# Instructions for New Developers
+# Instrução para uso do protótipo
 
 If you are a new developer contributing to this project, follow these steps to set up your development environment:
 
