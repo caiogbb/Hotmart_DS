@@ -7,7 +7,7 @@
 
 ## O problema a ser resolvido:
 
-Espera-se que o candidato consiga extrair uma amostra de tamanho 3-5 minutos de um vídeo de curso da Hotmart para extrair a descrição em português traduzi-lá para inglês e gerar uma voz sintética falando em inglês do mesmo vídeo. E ao fim, apresente um vídeo com o áudio gerado pela IA (Inteligência artificial)
+Espera-se que o candidato consiga extrair uma amostra de tamanho 3-5 minutos de um vídeo de curso da Hotmart para extrair a descrição em português traduzi-lá para inglês e gerar uma voz sintética falando em inglês do mesmo vídeo. E ao fim, apresente um vídeo com o áudio gerado pela IA (Inteligência artificial) utilizando linguagem python.
 
 # Descrição de cada etapa do fluxograma:
 
