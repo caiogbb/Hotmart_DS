@@ -61,7 +61,7 @@ If you are a new developer contributing to this project, follow these steps to s
 pip install -r requirements.txt
 ```
 
-### Mão na massa
+# Mão na massa
 
 - Em seguida clone o repositório do meu git com o seguinte comando e extrai a pasta:
 
