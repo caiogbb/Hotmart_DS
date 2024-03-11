@@ -77,4 +77,7 @@ python3 main.py
 Ao rodar este comando acima todos a pipeline de geração das partes e arquivos similares ao que foi enviado a este repositório do Github será criado (com exceção de modificações na transcrição, tradução e fala que são gerados pela IA e podem variar)
 
 
+# Conclusão:
+
+O teste proposto teve bastante desafios e oportunidades de inclusão desta pipeline para tradução de vídeos dentro da plataforma da Hotmart! Será proveitoso a aplicação dessa pipeline e sua melhoria! Aproveitem o protótipo.
 
