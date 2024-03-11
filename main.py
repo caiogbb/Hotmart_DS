@@ -28,6 +28,8 @@ pastas = ["videos", "mp3", "wav", "texto_pt", "traduzido_en", "video_sem_audio",
 for pasta in pastas:
     if not os.path.exists(pasta):
         os.mkdir(pasta)
+
+# Rodando as partes para geração do vídeo 
         
 geneator_audio(video, time, num_parts)
 
