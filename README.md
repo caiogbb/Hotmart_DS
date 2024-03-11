@@ -34,8 +34,6 @@ Com a voz criada com o texto que foi traduzido para o ingles, foi realizado ao f
 Foi proposto uma metolologia e modelos bem utilizados no mercado no que se refere as novas aplicações atuais, apesar de utilizar modelos open-source, teve-se o desafio de fragamentação para melhorar a qualidade da trancrição-tradução, geração do áudio e video final. É importante ressaltar, que apesar de modernos essas ferramentas open-source apresentam algumas anomalias na execução de algumas partes, como por exemplo, repetição de frase ou pular partes da tradução. Apesar destes contrtempos, o video final apresentou-se um ótimo protótipo para geração de voz para os vídeos presentes nos cursos da Hotmart. Com o tempo necessário e estudo mais profundo, prova-se com os resultados apresentados aqui que essa metodologia apresentada aqui tem potencial para ser melhorada no futuro!
 
 
-**
-
 ## O que foi entregue neste protótipo
 
 - [x] Códigos executáveis em python para criação da metodologia de Voice-over.
@@ -49,7 +47,7 @@ Foi proposto uma metolologia e modelos bem utilizados no mercado no que se refer
 
 If you are a new developer contributing to this project, follow these steps to set up your development environment:
 
-### Prerequisites
+## Prerequisites
 
 - Python instalado na versão 3.8.10 em ubuntu pode-se utilizar o seguinte comando:
 - 
@@ -61,6 +59,9 @@ Em seguida, instale as bibliotecas utilizadas neste protótipo com o seguinte co
 ```bash
 pip install -r requirements.txt
 ```
+
+### Mão na massa
+
 Em seguida clone o repositório do meu git com o seguinte comando e extrai a pasta:
 
 ```bash
