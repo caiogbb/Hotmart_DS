@@ -55,7 +55,7 @@ If you are a new developer contributing to this project, follow these steps to s
   sudo apt-get update
   sudo apt-get install python3.9
 ```
-Em seguida, instale as bibliotecas utilizadas neste protótipo com o seguinte comando em CMD:
+- Em seguida, instale as bibliotecas utilizadas neste protótipo com o seguinte comando em CMD:
 
 ```bash
 pip install -r requirements.txt
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ### Mão na massa
 
-Em seguida clone o repositório do meu git com o seguinte comando e extrai a pasta:
+- Em seguida clone o repositório do meu git com o seguinte comando e extrai a pasta:
 
 ```bash
 git clone https://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@github.com/caiogbb/Appsilon_test.git](https://github.com/caiogbb/Hotmart_DS.git
