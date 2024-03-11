@@ -2,7 +2,7 @@
 
 
 <div align="right">
-  <img src="/fluxograma.jpg" alt="Your Logo" width="800">
+  <img src="/fluxograma.jpg" alt="Your Logo" width="700">
 </div>
 
 ## O problema a ser resolvido:
