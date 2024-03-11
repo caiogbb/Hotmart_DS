@@ -50,8 +50,9 @@ If you are a new developer contributing to this project, follow these steps to s
 ## Prerequisites
 
 - Python instalado na versão 3.8.10 em ubuntu pode-se utilizar o seguinte comando:
-- 
+
 ```bash
+  sudo apt-get update
   sudo apt-get install python3.9
 ```
 Em seguida, instale as bibliotecas utilizadas neste protótipo com o seguinte comando em CMD:
