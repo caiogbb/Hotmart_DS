@@ -68,7 +68,7 @@ pip install -r requirements.txt
 git clone https://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@github.com/caiogbb/Appsilon_test.git](https://github.com/caiogbb/Hotmart_DS.git
 ```
 
-Ao terminar essa etapa, acrescentre qualquer vídeo mp4 (neste caso adicione o vídeo com 35 minutos enviado neste case na pasta) e execute os comandos dentro da pasta no CMD:
+Ao terminar essa etapa, acrescentre qualquer vídeo .mp4 na pasta com o nome `case_ai.mp4` (neste caso adicione o vídeo com 35 minutos enviado neste case na pasta) e execute os comandos dentro da pasta no CMD:
 
 ```bash
 python3 main.py
