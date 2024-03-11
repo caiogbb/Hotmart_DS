@@ -15,7 +15,7 @@ Espera-se que o candidato consiga extrair uma amostra de tamanho 3-5 minutos de 
 Nesta etapa foi carregado o vídeo contendo aproximadamente 35 min de um curso da Hotmart e preparado para ser pre-processado pelo algoritmo em python.
 
 ### Pré-processamento: 
-Nesta etapa houve um grande desafio, isto é, pode-se extrair uma amostra de vídeo de tamanho 3-5 minutos de maneira simples no python, no entanto, para os próximos passos seria inviável, pos os modelos de transcrição e tradução só permitiam uma quantidade de tempo de 1 minuto e aproxidamente 700 palavras. Neste sentido, optou-se por fragmentar uma amostra de tamanho 3 minutos em 12 partes, desta forma foi possível realizar as próximas etapas.
+Nesta etapa houve um grande desafio, isto é, pode-se extrair uma amostra de vídeo de tamanho 3-5 minutos de maneira simples no python, no entanto, para os próximos passos seria inviável, pos os modelos de transcrição e tradução só permitiam uma quantidade de tempo de 1 minuto e aproxidamente 700 palavras. Neste sentido, optou-se por fragmentar uma amostra de tamanho 3 minutos (essa amostra encontra-se em: `video_sample.mp4`) em 12 partes, desta forma foi possível realizar as próximas etapas.
 
 ### Geração da Transcrição: 
 Para esta etapa, foi extraido das 12 partes dos vídeos da etapa anterior os áudios dos vídeos e salvos em mp3, para as próximas etapas decidiu-se converter esses audios para arquivos .wav. Para a parte de extração da transcrição foi extraido as 12 partes de transcrição dos áudios utilizando uma `API`da biblioteca do `SpeechRecognition` em `python` e salvas e ao fim do processo foram combinadados para geração de um único arquivo denominado `text_pt.txt`.
@@ -29,7 +29,9 @@ Para a criação da voz foi utilizado o auxilio do `HuggingFace` famoso por cria
 ### Amostragem final com voz em inglês:
 Com a voz criada com o texto que foi traduzido para o ingles, foi realizado ao fim a inclusão desta voz, e optou-se por remover a voz em português e deixar apenas a voz em inglês realizando a fala. Este vídeo final encontra-se em `video_final.mp4`
 
-# Overview
+# Visão geral:
+
+Foi proposto uma metolologia e modelos bem utilizados no mercado no que se refere as novas aplicações atuais, apesar de utilizar modelos open-source, teve-se o desafio de fragamentação para melhorar a qualidade da trancrição-tradução, geração do áudio e video final. É importante ressaltar, que apesar de modernos essas ferramentas open-source apresentam algumas anomalias na execução de algumas partes, como por exemplo, repetição de frase ou pular partes da tradução. Apesar destes contrtempos, o video final apresentou-se um ótimo protótipo para geração de voz para os vídeos presentes nos cursos da Hotmart. Com o tempo necessário e estudo mais profundo, prova-se com os resultados apresentados aqui que essa metodologia apresentada aqui tem potencial para ser melhorada no futuro!
 
 
 **
