@@ -69,8 +69,12 @@ pip install -r requirements.txt
 git clone https://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@github.com/caiogbb/Appsilon_test.git](https://github.com/caiogbb/Hotmart_DS.git
 ```
 
+Ao terminar essa etapa, acrecentre qualquer vídeo mp4 (neste caso adicione o vídeo com 35 minutos enviado neste case na pasta) e execute os comandos dentro da pasta no CMD:
 
-
+```bash
+python3 main.py
+```
+Ao rodar este comando acima todos a pipeline de geração das partes e arquivos similares ao que foi enviado a este repositório do Github será criado (com exceção de modificações na transcrição, tradução e fala que são gerados pela IA e podem variar)
 
 
 
