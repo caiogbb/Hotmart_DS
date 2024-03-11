@@ -87,5 +87,5 @@ O teste proposto teve bastante desafios e oportunidades de inclusão desta pipel
 -  Criação de um docker para colocar em teste toda pipeline.
 -  Estudar outras estruturas de modelos que podem ser utilizados e comparar as performances.
 -  Considerar os códigos para geração de clonagem de voz (Segue um documento `next_steps.txt` com um possível códigos em python para solucionar a clonagem de voz usaando a `API` do `TTS` modelo do `HuggingFace`).
-- Estudar a possibilidade de incluir versões testes na plataforma para obtenção de feedbeck dos usuários.
+- Estudar a possibilidade de incluir versões testes na plataforma para obtenção de feedback dos usuários.
 - Extensões para outras linguagens além do inglês: Espanhol, Mandarim, Italiano, dentre outras. 
