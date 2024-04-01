@@ -1,4 +1,4 @@
-# Fluxograma das atividades desenvolvidas neste Case Técnico
+# Fluxograma das atividades desenvolvidas neste Case
 
 
 <div align="right">
